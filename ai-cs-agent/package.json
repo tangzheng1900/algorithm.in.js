@@ -1,0 +1,17 @@
+{
+  "name": "ai-cs-agent",
+  "version": "1.0.0",
+  "description": "LangChain-powered customer support agent for home energy storage systems",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "demo": "node index.js '如何检查电池是否连接到Wi-Fi？'"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.2.14",
+    "@langchain/openai": "^0.0.32",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.2.17"
+  }
+}
